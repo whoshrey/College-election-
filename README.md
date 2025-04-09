@@ -2,7 +2,7 @@
 1. *Start the Application*: Run `npm start` to start the application
 2. *Admin Login*: Login to the Admin Panel using:
     - Email: deepanshutyagi0784@gmail.com
-    - Password: deep@123
+    - for Password: DM me 9870600903
 3. *Student Panel Access*: To access the Student Panel, ensure your email is added to the Student section in the Admin Panel. If not, add it manually.
 
 
