@@ -8,13 +8,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDrN0JwSdatph8ULZMpclA5NAeFI1gWZHI",
-  authDomain: "clg-election-dc5ac.firebaseapp.com",
-  projectId: "clg-election-dc5ac",
-  storageBucket: "clg-election-dc5ac.firebasestorage.app",
-  messagingSenderId: "563048748424",
-  appId: "1:563048748424:web:948242662033674537563d",
-  measurementId: "G-DZPLE3GSGV"
+  apiKey: "your_api_key",
+  authDomain: "your_auth_domain",
+  projectId: "your_project_id",
+  storageBucket: "your_storage_bucket",
+  messagingSenderId: "your_messaging_sender_id",
+  appId: "your_app_id",
+  measurementId: "your_measurement_id"
 };
 
 // Initialize Firebase
