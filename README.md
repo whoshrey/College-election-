@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started
 1. *Start the Application*: Run `npm start` to start the application
 2. *Admin Login*: Login to the Admin Panel using:
@@ -9,3 +10,7 @@
 # Note
 - Admin credentials are required to access the Admin Panel
 - Student access is restricted to registered emails added by the Admin
+=======
+# College-election-
+A full-stack web application built with React and Node.js that enables secure and transparent campus elections. It supports role-based access for faculty and student administrators, allowing them to manage candidates, voters, and real-time election progress.
+>>>>>>> 88fafb060326763eec3b7db0fe6829fe1a069213
