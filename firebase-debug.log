@@ -1,0 +1,133 @@
+[debug] [2025-06-27T07:13:00.664Z] ----------------------------------------------------------------------
+[debug] [2025-06-27T07:13:00.669Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shreya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-06-27T07:13:00.670Z] CLI Version:   14.9.0
+[debug] [2025-06-27T07:13:00.670Z] Platform:      win32
+[debug] [2025-06-27T07:13:00.670Z] Node Version:  v22.16.0
+[debug] [2025-06-27T07:13:00.671Z] Time:          Fri Jun 27 2025 12:43:00 GMT+0530 (India Standard Time)
+[debug] [2025-06-27T07:13:00.671Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-27T07:13:01.005Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-27T07:13:01.008Z] > authorizing via signed-in user (shreyaworks1212@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\shreya\Videos\clgElection
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-27T07:14:51.678Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:14:51.678Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:14:51.680Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-06-27T07:14:52.408Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-06-27T07:14:52.408Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project clg-election-dc5ac (Clg-election) 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-06-27T07:14:58.309Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:14:58.309Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:14:58.310Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/firestore.googleapis.com [none]
+[debug] [2025-06-27T07:14:58.310Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/firestore.googleapis.com x-goog-quota-user=projects/clg-election-dc5ac
+[debug] [2025-06-27T07:15:03.375Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/firestore.googleapis.com 200
+[debug] [2025-06-27T07:15:03.375Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/firestore.googleapis.com [omitted]
+[info] +  firestore: required API firestore.googleapis.com is enabled 
+[debug] [2025-06-27T07:15:03.413Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:03.413Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:03.413Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases [none]
+[debug] [2025-06-27T07:15:04.363Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases 200
+[debug] [2025-06-27T07:15:04.364Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases {"databases":[{"name":"projects/clg-election-dc5ac/databases/(default)","uid":"1b7521da-d898-4fdc-ab21-0d43d26629b9","createTime":"2025-06-24T15:55:39.233522Z","updateTime":"2025-06-24T15:55:39.233522Z","locationId":"asia-south1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-06-27T06:12:30.683089Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"j","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IO+Q2rWGkY4DMIWku/K1io4D"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-06-27T07:15:49.894Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:49.894Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:49.895Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/releases pageSize=10&pageToken=
+[debug] [2025-06-27T07:15:51.333Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/releases 200
+[debug] [2025-06-27T07:15:51.333Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/releases {"releases":[{"name":"projects/clg-election-dc5ac/releases/cloud.firestore","rulesetName":"projects/clg-election-dc5ac/rulesets/85018d98-9d74-4028-b7ea-e21e78144cf4","createTime":"2025-06-24T15:55:48.383538Z","updateTime":"2025-06-24T15:55:48.383538Z"}]}
+[debug] [2025-06-27T07:15:51.334Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:51.334Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:51.334Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/rulesets/85018d98-9d74-4028-b7ea-e21e78144cf4 [none]
+[debug] [2025-06-27T07:15:52.596Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/rulesets/85018d98-9d74-4028-b7ea-e21e78144cf4 200
+[debug] [2025-06-27T07:15:52.596Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/clg-election-dc5ac/rulesets/85018d98-9d74-4028-b7ea-e21e78144cf4 [omitted]
+[info] i  Downloaded the existing Firestore Security Rules from the Firebase console 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-06-27T07:15:52.613Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.613Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.613Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.614Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.614Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-06-27T07:15:52.621Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-06-27T07:15:52.936Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2025-06-27T07:15:52.936Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2025-06-27T07:15:52.938Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2025-06-27T07:15:52.938Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/clg-election-dc5ac/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/clg-election-dc5ac/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] i  Downloaded the existing Firestore indexes from the Firebase console 
+[info] +  Wrote firestore.rules 
+[info] +  Wrote firestore.indexes.json 
+[info] 
+=== Functions Setup
+[debug] [2025-06-27T07:15:52.952Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-27T07:15:52.953Z] > authorizing via signed-in user (shreyaworks1212@gmail.com)
+[debug] [2025-06-27T07:15:52.953Z] [iam] checking project clg-election-dc5ac for permissions ["firebase.projects.get"]
+[debug] [2025-06-27T07:15:52.954Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.954Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:52.954Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/clg-election-dc5ac:testIamPermissions [none]
+[debug] [2025-06-27T07:15:52.955Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/clg-election-dc5ac:testIamPermissions x-goog-quota-user=projects/clg-election-dc5ac
+[debug] [2025-06-27T07:15:52.955Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clg-election-dc5ac:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-27T07:15:54.644Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/clg-election-dc5ac:testIamPermissions 200
+[debug] [2025-06-27T07:15:54.644Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clg-election-dc5ac:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-27T07:15:54.645Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:54.645Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:54.645Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:54.645Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:54.646Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-06-27T07:15:54.646Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/clg-election-dc5ac
+[debug] [2025-06-27T07:15:54.655Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-06-27T07:15:54.655Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/clg-election-dc5ac
+[debug] [2025-06-27T07:15:56.671Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/runtimeconfig.googleapis.com 200
+[debug] [2025-06-27T07:15:56.672Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-06-27T07:15:56.679Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com 200
+[debug] [2025-06-27T07:15:56.679Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-06-27T07:15:56.680Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:56.680Z] Checked if tokens are valid: true, expires at: 1751011939727
+[debug] [2025-06-27T07:15:56.680Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-06-27T07:15:56.680Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/clg-election-dc5ac
+[debug] [2025-06-27T07:15:57.609Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-06-27T07:15:57.610Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/clg-election-dc5ac/services/cloudfunctions.googleapis.com:enable [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
+[error] functions.source must be unique but 'functions' was used more than once.
+[error] functions.source must be unique but 'functions' was used more than once.
